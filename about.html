@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="x-icon" href="web-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6f89f9247.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our School</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="sub-header">
+        <div id="google_translate_element" class="language"></div>
+        <nav>
+            <a href="index.html"><img src="web-logo.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- about us contant -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>This Is Best School for Primary Education.</h1>
+                <p>Primary education forms the bedrock of development. It is in primary school that children 
+                    learn foundational skills that prepare them for life, work and active citizenship. Quality 
+                    education empowers children and young people, safeguards their health and well-being, and 
+                    breaks cycles of poverty.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>School Life is the best time of our life as we make new friends, learn new things and build our career there. <br>School time is the only time which we enjoy most, and when we enter college, we always miss our school life. <br>School life teaches us lots of new things and prepares us to face all the challenges of life.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=61550238105704&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com/meniyabapu_1204_?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/qr/IGUTXLDFFKT7C1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+        <!-- <a href="https://wa.me/qr/RPHVM6MPGHVHG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> -->
+    </div>
+     <div class="footer-rights">Copyright &#169 shreegovernmentprimaryschool,vastadi.com<br>| All rights reserved</div>
+    <p>Made With  <i class="fa-solid fa-heart"></i> by Meniya Rohit</p>
+
+</section>
+
+
+<!-- javascript for toggle menu -->
+<script>
+    var navLink = document.getElementById("navLink");
+
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+<!-- language translate -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+</html>
